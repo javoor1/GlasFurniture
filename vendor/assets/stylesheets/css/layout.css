@@ -3172,7 +3172,7 @@ figure.vimeo a img, figure.youtube a img {
 ================================================== */
 
 
-/*@font-face {
+@font-face {
     font-family: 'jaapokki-regular';
     src: url('/vendor/assets/stylesheets/font/css/jaapokki-regular.eot');
     src: url('/vendor/assets/stylesheets/font/css/jaapokki-regular.eot?#iefix') format('embedded-opentype'),
@@ -3181,7 +3181,7 @@ figure.vimeo a img, figure.youtube a img {
          url('/vendor/assets/stylesheets/font/css/jaapokki-regular.svg') format('svg');
     font-weight: normal;
     font-style: normal;
-}*/
+}
 
 
 
