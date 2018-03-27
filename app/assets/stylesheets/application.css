@@ -12,6 +12,8 @@
  *
  *= require twitter/bootstrap
  *= require font-awesome
+ *= require_tree ../../../vendor/assets/stylesheets/css
+ *= require_tree ../../../vendor/assets/stylesheets/css/font
  *= require_tree .
  *= require_self
  */
