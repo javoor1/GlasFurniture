@@ -163,17 +163,20 @@
 					</div>	
 				</div>
 		
+
+
 				<div id="projects-grid">
-				
-					<a href="project-1.html" class="animsition-link" id="1"> <!-- AQUÍ hay que poner los links -->
+
+				<%= link_to   controller: "index", action: "show", id: 3, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 branding">
 							<div class="mask-1"></div>
-							<img src="/assets/portfolio/1.jpg" alt="">
-							<h6>TMA-1 X</h6>
+							<img src="assets/portfolio/3.jpg" alt="">
+							<h6>Hang Around</h6>
 							<p>branding</p>
 						</div>
-					</a>
-							
+					<% end %>
+				
+
 					<a href="project-2.html" class="animsition-link">
 						<div class="portfolio-box-1 photo web">
 							<div class="mask-1"></div>
