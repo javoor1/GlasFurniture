@@ -15867,7 +15867,7 @@ figure.vimeo a img, figure.youtube a img {
 
 /* mouse grab icon */
 .grabbing { 
-    cursor:url(grabbing.png) 8 8, move;
+    cursor:url(/assets/grabbing.png) 8 8, move;
 }
 
 /* fix */
