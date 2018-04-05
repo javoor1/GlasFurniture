@@ -1,16 +1,7 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-
-		
-
-</head>
-<body>
-
 <div class="animsition">
 	
 	<div class="nav-wrapper cbp-af-header">
-		<img class="logo" src="assets/logo.png" alt="">
+		<img class="logo" src="/assets/logo.png" alt="">
 	
 		<a href="#cd-nav" class="cd-nav-trigger">
 			Menu<span><!-- used to create the menu icon --></span>
@@ -152,7 +143,7 @@
 					</div>		
 					<div class="sixteen columns">
 						<div id="portfolio-filter">
-							<ul id="filter">
+							<ul id="filter"> <!-- Aquí hay que cambiar las categorías -->
 								<li><a href="#" class="current" data-filter="*" title="">all</a></li>
 								<li><a href="#" data-filter=".branding" title="">branding</a></li>
 								<li><a href="#" data-filter=".photo" title="">photo</a></li>
@@ -165,176 +156,187 @@
 		
 				<div id="projects-grid">
 				
-					<a href="project-1.html" class="animsition-link">
+
+				  <!-- <a href="project-1.html" class="animsition-link"> -->
+				  <!-- </a> -->
+					<%= link_to   controller: "portfolio", action: "show", id: 1 do %>
 						<div class="portfolio-box-1 branding">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/1.jpg" alt="">
 							<h6>TMA-1 X</h6>
 							<p>branding</p>
 						</div>
-					</a>
+					<% end %>
 							
-					<a href="project-2.html" class="animsition-link">
+					
+					<%= link_to   controller: "portfolio", action: "show", id: 2, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 photo web">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/2.jpg" alt="">
 							<h6>Bulb Fiction</h6>
 							<p>photo</p>
 						</div>
-					</a>
+					<% end %>
 					
-					<a href="project-3.html" class="animsition-link">
+					<%= link_to   controller: "portfolio", action: "show", id: 3, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 branding">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/3.jpg" alt="">
 							<h6>Hang Around</h6>
 							<p>branding</p>
 						</div>
-					</a>
+					<% end %>
 							
-					<a href="project-1.html" class="animsition-link">
+
+					<%= link_to   controller: "portfolio", action: "show", id: 4, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 motion">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/4.jpg" alt="">
 							<h6>SLICE</h6>
 							<p>motion</p>
 						</div>
-					</a>
+					<% end %>
 							
-					<a href="project-2.html" class="animsition-link">
+					<%= link_to   controller: "portfolio", action: "show", id: 5, class: "animsition-link" do %>
 						<div class="portfolio-box-1 web">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/5.jpg" alt="">
 							<h6>Tube Chair</h6>
 							<p>web</p>
 						</div>
-					</a>
+					<% end -%>
 							
-					<a href="project-3.html" class="animsition-link">
+					
+					<%= link_to   controller: "portfolio", action: "show", id: 6, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 motion">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/6.jpg" alt="">
 							<h6>Turn Around</h6>
 							<p>motion</p>
 						</div>
-					</a>
+					<% end %>
 							
-					<a href="project-1.html" class="animsition-link">
+
+					<%= link_to   controller: "portfolio", action: "show", id: 7, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 photo">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/7.jpg" alt="">
 							<h6>Pebble</h6>
 							<p>photo</p>
 						</div>
-					</a>
+					<% end -%>
 							
-					<a href="project-2.html" class="animsition-link">
+
+					<%= link_to   controller: "portfolio", action: "show", id: 8, class: "animsition-link" do %>			
 						<div class="portfolio-box-1 branding">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/8.jpg" alt="">
 							<h6>Shanghay Chair</h6>
 							<p>branding</p>
 						</div>
-					</a>
+					<% end %>
+
 							
-					<a href="project-3.html" class="animsition-link">
+					<%= link_to   controller: "portfolio", action: "show", id: 9, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 web">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/9.jpg" alt="">
 							<h6>Tracks Leather</h6>
 							<p>web</p>
 						</div>
-					</a>
+					<% end %>
 
-					<a href="project-3.html" class="animsition-link">
-						<div class="portfolio-box-1 web">
-							<div class="mask-1"></div>
-							<img src="assets/portfolio/9.jpg" alt="">
-							<h6>Tracks Leather</h6>
-							<p>web</p>
-						</div>
-					</a>
 
-					<a href="project-3.html" class="animsition-link">
+					<%= link_to   controller: "portfolio", action: "show", id: 10, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 web">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/9.jpg" alt="">
 							<h6>Tracks Leather</h6>
 							<p>web</p>
 						</div>
-					</a>
+					<% end %>
 
-					<a href="project-3.html" class="animsition-link">
-						<div class="portfolio-box-1 web">
-							<div class="mask-1"></div>
-							<img src="assets/portfolio/9.jpg" alt="">
-							<h6>Tracks Leather</h6>
-							<p>web</p>
-						</div>
-					</a>
 
-					<a href="project-3.html" class="animsition-link">
+					<%= link_to   controller: "portfolio", action: "show", id: 11, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 web">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/9.jpg" alt="">
 							<h6>Tracks Leather</h6>
 							<p>web</p>
 						</div>
-					</a>
+					<% end %>
 
-					<a href="project-3.html" class="animsition-link">
+					<%= link_to   controller: "portfolio", action: "show", id: 12, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 web">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/9.jpg" alt="">
 							<h6>Tracks Leather</h6>
 							<p>web</p>
 						</div>
-					</a>
+					<% end %>
 
-					<a href="project-3.html" class="animsition-link">
+					<%= link_to   controller: "portfolio", action: "show", id: 13, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 web">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/9.jpg" alt="">
 							<h6>Tracks Leather</h6>
 							<p>web</p>
 						</div>
-					</a>
+					<% end %>
 
-					<a href="project-3.html" class="animsition-link">
+					<%= link_to   controller: "portfolio", action: "show", id: 14, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 web">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/9.jpg" alt="">
 							<h6>Tracks Leather</h6>
 							<p>web</p>
 						</div>
-					</a>
+					<% end %>
 
-					<a href="project-3.html" class="animsition-link">
+					<%= link_to   controller: "portfolio", action: "show", id: 15, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 web">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/9.jpg" alt="">
 							<h6>Tracks Leather</h6>
 							<p>web</p>
 						</div>
-					</a>
+					<% end %>
 
-					<a href="project-3.html" class="animsition-link">
+					<%= link_to   controller: "portfolio", action: "show", id: 16, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 web">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/9.jpg" alt="">
 							<h6>Tracks Leather</h6>
 							<p>web</p>
 						</div>
-					</a>
+					<% end %>
 
-					<a href="project-3.html" class="animsition-link">
+					<%= link_to   controller: "portfolio", action: "show", id: 17, class: "animsition-link" do %>	
 						<div class="portfolio-box-1 web">
 							<div class="mask-1"></div>
 							<img src="assets/portfolio/9.jpg" alt="">
 							<h6>Tracks Leather</h6>
 							<p>web</p>
 						</div>
-					</a>
+					<% end %>
+
+					<%= link_to   controller: "portfolio", action: "show", id: 18, class: "animsition-link" do %>	
+						<div class="portfolio-box-1 web">
+							<div class="mask-1"></div>
+							<img src="assets/portfolio/9.jpg" alt="">
+							<h6>Tracks Leather</h6>
+							<p>web</p>
+						</div>
+					<% end %>
+
+					<%= link_to   controller: "portfolio", action: "show", id: 19, class: "animsition-link" do %>	
+						<div class="portfolio-box-1 web">
+							<div class="mask-1"></div>
+							<img src="assets/portfolio/9.jpg" alt="">
+							<h6>Tracks Leather</h6>
+							<p>web</p>
+						</div>
+					<% end %>
 							
 				</div>
 				
@@ -412,7 +414,7 @@
 				<div class="container">	
 					<div class="one-third column" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.3s">
 						<div class="team-wrap">
-							<img src="assets/team1.jpg" alt="">
+							<img src="/assets/team1.jpg" alt="">
 							<div class="mask">
 								<div class="text">
 									<p>Praesent sed nisi eleifend, fermentum orci amet, iaculis libero.</p>			
@@ -436,7 +438,7 @@
 					</div>
 					<div class="one-third column" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.3s">
 						<div class="team-wrap">
-							<img src="assets/team2.jpg" alt="">
+							<img src="/assets/team2.jpg" alt="">
 							<div class="mask">
 								<div class="text">
 									<p>Praesent sed nisi eleifend, fermentum orci amet, iaculis libero.</p>		
@@ -463,7 +465,7 @@
 					</div>
 					<div class="one-third column" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.3s">
 						<div class="team-wrap">
-							<img src="assets/team3.jpg" alt="">
+							<img src="/assets/team3.jpg" alt="">
 							<div class="mask">
 								<div class="text">
 									<p>Praesent sed nisi eleifend, fermentum orci amet, iaculis libero.</p>		
@@ -537,7 +539,7 @@
 					</div>		
 					<div class="thirteen columns remove-bottom offset-by-three" data-scroll-reveal="enter bottom move 300px over 1s after 0.3s">
 						<div class="full-img-wrap">
-							<img src="assets/imac.png" alt="">
+							<img src="/assets/imac.png" alt="">
 						</div>
 					</div>
 				</div>
@@ -773,7 +775,7 @@
 				<div class="container">		
 					<div class="sixteen columns">
 						<div class="footer-img">
-							<img src="assets/logo.png" alt="">
+							<img src="/assets/logo.png" alt="">
 						</div>	
 					</div>
 					<div class="sixteen columns">			
@@ -864,6 +866,3 @@
 
 	<div class="scroll-to-top"></div>
 	
-
-</body>
-</html>
